@@ -1,0 +1,43 @@
+{
+    "name": "@myappin/nx-builder",
+    "version": "0.0.1",
+    "description": "Angular CLI power-ups for modern Web development: Builders",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TheDocX/nx-builder.git"
+    },
+    "keywords": [
+      "Test",
+      "Jest",
+      "Angular",
+      "Workspace",
+      "Builders",
+      "Angular CLI",
+      "Cypress"
+    ],
+    "main": "index.js",
+    "types": "index.d.js",
+    "author": "Victor Savkin",
+    "license": "MIT",
+    "homepage": "https://nx.dev",
+    "builders": "./src/builders.json",
+    "dependencies": {
+      "@angular-devkit/architect": "~0.13.1",
+      "@angular-devkit/build-angular": "~0.13.1",
+      "@angular-devkit/build-webpack": "~0.13.1",
+      "copy-webpack-plugin": "4.6.0",
+      "fork-ts-checker-webpack-plugin": "0.4.9",
+      "identity-obj-proxy": "3.0.0",
+      "license-webpack-plugin": "^1.4.0",
+      "rxjs": "6.3.3",
+      "ts-loader": "5.3.1",
+      "webpack": "4.29.0",
+      "webpack-dev-server": "3.1.14",
+      "webpack-node-externals": "1.7.2",
+      "@angular/core": "^7.2.7",
+      "@angular/compiler": "^7.2.7",
+      "@angular/cli": "7.3.1",
+      "@angular/compiler-cli": "~7.2.0",
+      "zone.js": "0.8.29"
+    }
+  }
